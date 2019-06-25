@@ -1,11 +1,24 @@
 {
-  "name": "netfliqui",
+  "name": "Netfliqui",
   "version": "0.1.0",
   "private": true,
+  "description": "Netfliqui app for React Development course",
   "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^3.4.1",
+    "bootstrap.native": "^2.0.26",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.1",
     "react": "^16.8.6",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-inlinesvg": "^0.8.4",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.12",
+    "react-select": "^3.0.4",
+    "typeface-hind-guntur": "0.0.72"
   },
   "scripts": {
     "start": "react-scripts start",

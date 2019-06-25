@@ -1,5 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
@@ -21,3 +19,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Big  big assets
+/src/assets/img/actores
+/src/assets/img/filmes
+/src/assets/img/generos
+/src/assets/img/mpaa
+/src/assets/img/produtoras
