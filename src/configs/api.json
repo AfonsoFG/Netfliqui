@@ -1,8 +1,11 @@
 {
-    "url": "http://192.168.1.205:3001",
+    "url": "http://fg.ddns.net:3003/v1",
     "version": "0.1.0",
     "endpoints": {
-      "movies": "/movies"
+      "movies": "/movies",
+      "movie": "/movie",
+      "actors": "/actors",
+      "genres": "/genres"
       
     }
   }

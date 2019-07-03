@@ -21,8 +21,14 @@ yarn-debug.log*
 yarn-error.log*
 
 # Big  big assets
-/src/assets/img/actores
-/src/assets/img/filmes
-/src/assets/img/generos
+/src/assets/img/actors
+/src/assets/img/movies
+/src/assets/img/genres
 /src/assets/img/mpaa
-/src/assets/img/produtoras
+/src/assets/img/producers
+
+/public/assets/img/actors
+/public/assets/img/movies
+/public/assets/img/genres
+/public/assets/img/mpaa
+/public/assets/img/producers

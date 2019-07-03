@@ -25,7 +25,7 @@ class SectionFooter extends Component {
                             </a>
                         </Col>
                         <Col lg={3}>
-                            <div class="link-title">The same pages</div>
+                            <div className="link-title">The same pages</div>
                             <ul>
                                 <li><Link to="/about">About</Link></li>
                                 <li><Link to="/press">Press</Link></li>
@@ -34,7 +34,7 @@ class SectionFooter extends Component {
                             </ul>
                         </Col>
                         <Col lg={3} sm={4} xs={12}>
-                            <div class="link-title">The same pages</div>
+                            <div className="link-title">The same pages</div>
                             <ul>
                                 <li><Link to="/about">About</Link></li>
                                 <li><Link to="/press">Press</Link></li>

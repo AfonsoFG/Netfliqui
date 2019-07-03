@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
-import { Error404, PageMain, PageSearch, PageVideo } from './components'
+import { Error404, PageMain, PageSearch, PageMovies, PageMovie, PageSignIn, PageSignUp } from './components'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/app.css';
@@ -13,7 +13,10 @@ function App() {
         <Switch>
             <Route exact path='/' component={PageMain} />
             <Route exact path='/search' component={PageSearch} />
-            <Route exact path='/video' component={PageVideo} />
+            <Route exact path='/movies' component={PageMovies} />
+            <Route exact path='/movie/:id' component={PageMovie} />
+            <Route exact path='/signin' component={PageSignIn} />
+            <Route exact path='/signup' component={PageSignUp} />
             <Route component={Error404} />
         </Switch>
     );
