@@ -4,7 +4,7 @@
   "private": true,
   "description": "Netfliqui app for React Development course",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "^3.4.1",
     "bootstrap.native": "^2.0.26",
     "font-awesome": "^4.7.0",
